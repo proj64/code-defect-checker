@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Detection</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap-5.0.2-dist/css/bootstrap.css" />
+</head>
+<body class="bg-dark text-light">
+
+    <main>
+
+        <div class="d-flex justify-content-center m-3">
+             <form>
+            <input type="file" name="files" multiple id="files"/>
+         </form>
+        </div>
+       
+
+        <!-- <div class="container w-100"> -->
+            <div class="d-flex justify-content-evenly">
+                <div class="col m-3 round"  style ="width:48%; ">
+                    <div style="height: 35rem;" class="bg-success m-3 rounded overflow-auto p-3">
+                        <pre  id="input-file">
+
+                        </pre>
+                    </div>
+
+                </div>
+                <div class="col m-3" style ="width:48%; ">
+                    <div class="w-full bg-danger m-3 rounded overflow-auto p-3" style="height:35rem">
+                        <pre  id="output-file">
+
+                        </pre>
+                    </div>
+                </div>
+
+            </div>
+
+        <!-- </div> -->
+
+        
+
+    </main>
+    <script src="./jquery.js"></script>
+    <script src="./bootstrap/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- <script src="./openai.min.js" type="module"></script> -->
+    <script src="./script.js" type="module"></script>
+</body>
+</html>
